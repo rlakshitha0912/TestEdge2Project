@@ -8,11 +8,13 @@ packages:
   gitUsername: rlakshitha0912
   gitBranch: main
 - name: EdgeTestPackageCloudstreams
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/rlakshitha0912
   gitUsername: rlakshitha0912
   gitBranch: main
 - name: EdgeTestPackagesJDBC
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/rlakshitha0912
   gitUsername: rlakshitha0912
@@ -26,3 +28,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.971
+- serviceName: project.testedge2.integrations:date1
+  packages:
+  - name: TestEdge2Project
+    version: "1.0"
+  - name: EdgeTestPackageCloudstreams
+    version: "1.0"
+  - name: EdgeTestPackagesJDBC
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
