@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/rlakshitha0912/TestEdge2Project
   gitUsername: rlakshitha0912
   gitBranch: main
+- name: EdgeTestPackageCloudstreams
+  gitServerName: test
+  gitUrl: https://github.com/rlakshitha0912
+  gitUsername: rlakshitha0912
+  gitBranch: main
 services:
 - serviceName: project.testedge2.integrations:test
   packages:
